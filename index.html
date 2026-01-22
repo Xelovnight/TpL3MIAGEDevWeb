@@ -1,56 +1,111 @@
 <!DOCTYPE html>
 <html lang="fr">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jovanka Lovata | UI/UX Designer</title>
     <link rel="stylesheet" href="index.css">
-    <title>TpApplicationWeb</title>
-
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
-
 <body>
 
-    <div class="navbar">
-        <div class="logo">
-            <span class="logo-circle">J</span>
-            <span>Jovanca</span>
+    <header>
+        <div class="logo"><span>J</span> Jovanca</div>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#" class="btn-hire">Hire Me</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="vertical-text">JOVANCA</div>
+        <h1>I'm Jovanka Lovata.</h1>
+        <p class="subtitle">UI/UX Designer and Web Developer</p>
+        <div class="hero-img-container">
+            <img src="assets/photoweb.png" alt="Jovanka Lovata">
         </div>
-        <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="contact.html">Services</a></li>
-            <li><a href="Hire.html" class="btn-hire">Hire Me</a></li>
-        </ul>
+    </section>
+
+    <div class="logo-bar">
+        <span>dribbble</span>
+        <span>Linked <i class="fab fa-linkedin"></i></span>
+        <span>Medium</span>
+        <span>Bēhance</span>
     </div>
 
-    <div class="content">
-        <h1>I'm Jovanca Lovata</h1>
-        <p>UI/UX Designer and Web Developer</p>
-        <img src="assets/photoweb.png" alt="Designer Image" class="designer-image">
-    </div>
-
-    <div class="barnoir">
-        <li><a href="">dribble</a></li>
-        <li><a href="">linkedin</a></li>
-        <li><a href="">medium</a></li>
-        <li><a href="">behance</a></li>
-    </div>
-
-    <div class="content2">
-        <img src="assets/photoweb.png" alt="About Image" class="about-image">
-        <div class="text-container">
+    <section class="about">
+        <div class="about-img">
+            <img src="assets/photoweb2.png" alt="About Profile">
+        </div>
+        <div class="about-content">
             <h2>DIGITAL DESIGNER CURRENTLY BASED IN INDONESIA</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac
-                aliquet odio mattis.</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc vulputate libero et velit interdum, ac aliquet odio mattis.</p>
         </div>
-    </div>
+    </section>
 
-<hr class="hr1">
+    <hr class="separator">
 
+    <section class="services">
+        <div class="services-info">
+            <h2>WHAT DO I HELP</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam eu turpis molestie, dictum est a, mattis tellus. Sed dignissim, metus nec fringilla accumsan, risus sem.</p>
+            
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>250+</h3>
+                    <p>Project Completed</p>
+                </div>
+                <div class="stat-item">
+                    <h3>249+</h3>
+                    <p>Happy Clients</p>
+                </div>
+            </div>
+        </div>
 
+        <div class="services-cards">
+            <div class="card">
+                <div class="icon-box yellow"><i class="fas fa-palette"></i></div>
+                <div>
+                    <h4>User Interface Design</h4>
+                    <p>100 Projects</p>
+                </div>
+            </div>
+            <div class="card light">
+                <div class="icon-box teal"><i class="fas fa-desktop"></i></div>
+                <div>
+                    <h4>Website Design</h4>
+                    <p>100 Projects</p>
+                </div>
+            </div>
+            <div class="card">
+                <div class="icon-box coral"><i class="fas fa-users"></i></div>
+                <div>
+                    <h4>Marketing</h4>
+                    <p>100 Projects</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <hr class="separator">
+
+    <footer>
+        <h2>Let's Start by Saying Hi!</h2>
+        <a href="mailto:hello@example.com" class="btn-email"><i class="far fa-envelope"></i> email me</a>
+        
+        <div class="footer-bottom">
+            <div class="social-links">
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fas fa-basketball-ball"></i></a>
+                <a href="#"><i class="fab fa-medium-m"></i></a>
+            </div>
+            <p>Created by <strong>Zarror</strong> | All Reserved!</p>
+        </div>
+    </footer>
 
 </body>
-
 </html>
